@@ -1,4 +1,39 @@
 
+# KOB Address Verification Service
+
+Version: TBD
+
+
+## Dependent Projects
+
+* KOBConnect
+
+* KOBAW
+
+* KOBVCR
+
+* KOBPIU
+
+
+## Abstract
+
+
+A user can make use of this service to get a digital domicile credential which is issued by a state government to prove that the person having the domicile certificate is a resident of that particular State or Union Territory. This project is a part of Kochi Orgbook which aims to enable any association having it's presence in the city of Kochi to register on the KOB VON Network to issue digital proofs and host a verifiable credential registry(VCR) in a transparent and cost efficient manner. KOB Address Verification Service is specifically meant for digitizing the process of verifying and issuing domicile credentials for users and these credentials will be stored in digital wallet which is an android application that can act as a data store on cloud. This credential can be used to avail various benefits such as education, job and other benefits (Resident Quotas in the Government Service and educational institutions, and also in case of jobs where local residents are preferred).
+
+
+
+## Motivation
+
+In the current system, a user who require a domicile credential has to apply online and upload documents like ration card, any document to prove address and any document to proof address. The heading officer at the village/muncipality checks for the genuinity of the uploaded documents and conducts a local search about the person who applied for the document(Genuinity is proven solely on the expertise and experience of the officer). When he/she finds that the claims are right, he/she issues a digitally signed domicile proof which can be downloaded and printed by the user. This process takes atleast 2 days to be completed. The biggest challenge with this system is that the credential provided is, at the end, a paper credential, which can be forged very easily. Another issue with the current system is that the domicile credential can be, at any time, revoked by the issuing authority.
+
+
+## Status of the project
+
+Incubation
+
+
+## Solution
+
 KochiOrgBook is designed in such a way that the users and organizations can completely trust their
 identity data stored in a decentralized manner. It ensures data privacy and security in an efficient and
 cost effective manner. The subprojects of KOB are linked in such a way that an ecosystem is built
@@ -36,9 +71,7 @@ party agency is encrypted and saved as a DID document. This DID document is stor
 wallet or the association wallet. The user/association will be the only entity who can view the
 credential.
 
-
-![KOB Address Verification System](Images\whole.PNG)
-
+<img src="whole.PNG" alt="KOB Address Verification System" />
 
 Figure: KOB Address Verification System
 
@@ -105,5 +138,32 @@ We also need the third party agency to issue verifiable credentials as a DID whi
 agency should be capable of supporting both the verification service and the issual of DID. 
 
 
+## Usecase of KOB Address Verification Service
+
+<img src="usecase (1).png" alt="KOB Address Verification System" />
 
 
+## Contributors
+
+[Merlin Joseph](https://github.com/merjos369)
+
+## Testing the project
+
+TBD
+
+
+## References
+
+[https://kerala.gov.in/documents/10180/a3d88f49-3786-47f1-8b37-5b198b8bebaf](https://kerala.gov.in/documents/10180/a3d88f49-3786-47f1-8b37-5b198b8bebaf)
+
+[https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch](https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch)
+
+[https://cleartax.in/s/domicile-certificate-vs-incorporation-certificate](https://cleartax.in/s/domicile-certificate-vs-incorporation-certificate)
+
+[https://www.orgbook.gov.bc.ca/en/home](https://www.orgbook.gov.bc.ca/en/home)
+
+[https://cdn2.vectorstock.com/i/1000x1000/30/91/cash-in-wallet-icon-on-white-background-vector-3473091.jpg](https://cdn2.vectorstock.com/i/1000x1000/30/91/cash-in-wallet-icon-on-white-background-vector-3473091.jpg)
+
+[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrtcPWfwKrr2qxOGx6yX0VgSK3QLK_5CqXdQ&usqp=CAU](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrtcPWfwKrr2qxOGx6yX0VgSK3QLK_5CqXdQ&usqp=CAU)
+
+[https://t3.ftcdn.net/jpg/02/87/29/60/360_F_287296039_VJdiavV0cHEkoI4Aj3n3ggfXBVxpNwTj.jpg](https://t3.ftcdn.net/jpg/02/87/29/60/360_F_287296039_VJdiavV0cHEkoI4Aj3n3ggfXBVxpNwTj.jpg)
